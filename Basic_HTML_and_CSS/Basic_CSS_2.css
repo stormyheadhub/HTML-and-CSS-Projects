@@ -1,0 +1,18 @@
+<style>
+	.my_style_1 {
+	color: GoldenRod;
+	background: Aquamarine;
+	font-weight: bold;
+	text-align: center;
+	}
+	h1	{
+	text-shadow: 5px 5px 10px blue;
+	}
+	.my_style_2 {
+	color: BurlyWood;
+	background: CornflowerBlue;
+	font-weight: bold;
+	text-align: center;
+	}
+	/*This is to practice commenting*/
+</style>
