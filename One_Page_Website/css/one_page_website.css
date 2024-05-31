@@ -1,6 +1,11 @@
-font-family
 
-font-size
+html {
+    font-family: sans-serif;
+    font-size: 62.5%;
+
+}
+
+
 
 make a form
     input widths
