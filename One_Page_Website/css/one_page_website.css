@@ -1,14 +1,37 @@
 
 html {
     font-family: sans-serif;
-    font-size: 62.5%;
+    font-size: 85.5%;
 
 }
 
-
-
-make a form
-    input widths
-    margin between inputs
-    border
-    border radius of inputs
+p {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+      }
+ 
+ /* Style inputs */
+ input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    width: 100%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+       
