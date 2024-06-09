@@ -15,8 +15,10 @@ Cinema Website<br>
 <b>Basic HTML, CSS and JavascriptCSS</b>
 <b>CSS Rollever Menu</b>
 <br>
-This is an example of a simple rollover menu created with CSS.<br>
+This is an example of a simple rollover menu created with CSS.
+<br>
 <b>HTML Page Template with LiveShare</b>
+
 <b>One Page Website</b>
 <b>Space Station Website</b>
 <b>Cinema Website</b>
