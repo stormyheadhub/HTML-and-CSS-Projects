@@ -11,7 +11,7 @@ One Page Website<br>
 Space Station Website<br>
 Cinema Website<br>
 
-<h1>Basic HTML and CSS</h1>
+<b>Basic HTML and CSS</b>
 <h1>Basic HTML, CSS and JavascriptCSS</h1>
 <h1>CSS Rollever Menu</h1>
 <h1>HTML Page Template with LiveShare</h1>
