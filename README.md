@@ -3,6 +3,7 @@
 This is a showcase of sample websites I made using HTML and CSS.
 
 <b>Projects</b>
+<br>
 Basic HTML and CSS<br>
 Basic HTML, CSS, and Javascript<br>
 CSS Rollover menu<br>
