@@ -12,8 +12,7 @@ One Page Website<br>
 Space Station Website<br>
 Cinema Website<br>
 <ul>
-<li></li><b>Basic HTML and CSS</b></li>
-<li><b>Basic HTML, CSS and JavascriptCSS</b></li>
+<li><b>Basic HTML and CSS</b></li>
 <li><b>Basic HTML, CSS and JavascriptCSS</b></li>
 <li><b>CSS Rollever Menu</b></li>
 <br>
