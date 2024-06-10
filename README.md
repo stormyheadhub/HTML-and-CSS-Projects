@@ -5,7 +5,6 @@ This is a showcase of sample websites I made using HTML and CSS.
 <b>Projects</b>
 <br>
 Basic HTML and CSS<br>
-Basic HTML, CSS, and Javascript<br>
 CSS Rollover menu<br>
 HTML Page Template With LiveShare<br>
 One Page Website<br>
@@ -13,7 +12,10 @@ Space Station Website<br>
 Cinema Website<br>
 <ul>
 <li><b>Basic HTML and CSS</b></li>
-<li><b>Basic HTML, CSS and JavascriptCSS</b></li>
+<br>
+These are practice webpages with examples of making forms, lists, and linking HTML pages and CSS pages together.
+<br>
+<br>
 <li><b>CSS Rollever Menu</b></li>
 <br>
 This is an example of a simple rollover menu created with CSS.
