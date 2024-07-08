@@ -5,7 +5,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="./css/one_page_website.css">
+        <script src="JS/onepage_website.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/one_page_website.css"/>
 
         <title>Kewl Katios</title>
 
@@ -40,78 +41,80 @@
             <div id="gallery"></div>
             <div>
                 <h1>Gallery</h1>
-                <div>                       
-                    <!--PHOTO CONTAINER 1-->
-                    <div>
-                        <div>
-                            <img src=" ./images/tn_1.jpg" alt="An outdoor enclosure with a walkway from window">
-                            <div>
-                                <h3>Click to Enlarge</h3>
-                                    <p>We can customize your catio! Contact us for more details.</p>
-                             </div>
-                        </div>
-                    </div>
-                    <!--END PHOTO CONTAINER 1-->
-
-                    <!--PHOTO CONTAINER 2-->
-                    <div>
-                        <div>
-                            <img src=" ./images/tn_2.jpg" alt="A two level enclosure">
-                            <div>
-                                <h3>Click to Enlarge</h3>
-                                    <p>We can customize your catio! Contact us for more details.</p>
-                             </div>
-                        </div>
-                    </div>
-                    <!--END PHOTO CONTAINER 2-->
-
-                    <!--PHOTO CONTAINER 3-->
-                    <div>
-                        <div>
-                            <img src=" ./images/tn_3.jpg" alt="A X-Large customoized enclosure">
-                            <div>
-                                <h3>Click to Enlarge</h3>
-                                    <p>We can customize your catio! Contact us for more details.</p>
-                             </div>
-                        </div>
-                    </div>
-                    <!--END PHOTO CONTAINER 3-->
-
-                    <!--PHOTO CONTAINER 4-->
-                    <div>
-                        <div>
-                            <img src=" ./images/tn_4.jpg" alt="Example of a cat nest">
-                            <div>
-                                <h3>Click to Enlarge</h3>
-                                    <p>We can customize your catio! Contact us for more details.</p>
-                             </div>
-                        </div>
-                    </div>
-                    <!--END PHOTO CONTAINER 4-->
-
-                    <!--PHOTO CONTAINER 5-->
-                    <div>
-                        <div>
-                            <img src=" ./images/tn_5.jpg" alt="Customized Katio walkway">
-                            <div>
-                                <h3>Click to Enlarge</h3>
-                                    <p>We can customize your catio! Contact us for more details.</p>
-                             </div>
-                        </div>
-                    </div>
-                    <!--END PHOTO CONTAINER 5-->
-
-                    <!--PHOTO CONTAINER 6-->
-                    <div>
-                        <div>
-                            <img src=" ./images/tn_6.jpg" alt="Another large customized Katio">
-                            <div>
-                                <h3>Click to Enlarge</h3>
-                                    <p>We can customize your catio! Contact us for more details.</p>
-                             </div>
-                        </div>
-                    </div>
-                    <!--END PHOTO CONTAINER 6-->
+                <!-- Images used to open the lightbox -->
+            <div class="row">
+                <div class="column">
+                <img src="IMG/img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                <div class="column">
+                <img src="IMG/img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                </div>
+                <div class="column">
+                <img src="IMG/img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                </div>
+                <div class="column">
+                <img src="IMG/img4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
+                <div class="column">
+                <img src="IMG/img5.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
+                <div class="column">
+                <img src="IMG/img6.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
+            </div>
+            
+            <!-- The Modal/Lightbox -->
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+            
+                <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="img1_wide.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="img2_wide.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="img3_wide.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="img4_wide.jpg" style="width:100%">
+                </div>
+            
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                <!-- Caption text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+            
+                <!-- Thumbnail image controls -->
+                <div class="column">
+                    <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Nature">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+                </div>
+                </div>
+            </div>
 
         </section>
         <!--END GALLERY-->
